@@ -1,4 +1,4 @@
-# tienda-electrodomesticos - Objetivo
+# Objetivo tienda-electrodomesticos
 Trabajo desarrollado dentro de la asignatura Programación Orientada a Objetos en el Grado de Ingeniería Informática de la UNED. Consiste en el diseño e implementación de un Sistema Integrado de Gestión de una tienda de electrodomésticos.
 
 Los objetivos de la realización de esta práctica han sido los siguientes:
@@ -22,3 +22,5 @@ La arquitectura del sistema diseñada muestra con claridad la separación por bl
 El diseño de las clases tiene como objetivo el separar la interacción con el usuario (clase `InterfazDeTexto`) de la gestión de datos o gestores (clases `Almacen…`), y a su vez, separar los gestores de las clases básicas de definición de objetos simples. Por tanto, la lógica del programa se centra en los gestores, donde se manipulan los datos. La interfaz de texto se limita a mostrar información en pantalla y recopilar información introducida, pero realiza operaciones de lógica.
 
 Se ha optado por desarrollar cuatro gestores diferentes, cada uno especializado en un subconjunto de clases básicas a gestionar, en vez de un único gestor que gestione todas las clases básicas. El objetivo de crear cuatro gestores ha sido facilitar la comprensión de la arquitectura del programa y aclarar el funcionamiento a simple vista. No obstante, la interfaz de texto de interacción con el usuario es una única para todo el programa.
+
+
