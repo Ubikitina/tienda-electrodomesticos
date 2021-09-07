@@ -23,4 +23,6 @@ El diseño de las clases tiene como objetivo el separar la interacción con el u
 
 Se ha optado por desarrollar cuatro gestores diferentes, cada uno especializado en un subconjunto de clases básicas a gestionar, en vez de un único gestor que gestione todas las clases básicas. El objetivo de crear cuatro gestores ha sido facilitar la comprensión de la arquitectura del programa y aclarar el funcionamiento a simple vista. No obstante, la interfaz de texto de interacción con el usuario es una única para todo el programa.
 
+# Bibliografía
+- Barnes, D., Díaz Fondón, M., Kölling, M., Luengo Díez, M., & Read, T. _Programación orientada a objetos con Java usando BlueJ_. Pearson.
 
